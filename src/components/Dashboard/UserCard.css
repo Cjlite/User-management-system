@@ -1,0 +1,54 @@
+.usercard_container {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    background-color: #fff;
+}
+
+button.delete_button {
+    background-color: #ff5555;
+    color: white;
+    padding: 10px;
+}
+
+button.edit_button {
+    background: #9900ff;
+    color: white;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+    margin-right: 5px;
+}
+
+button:hover {
+    filter: brightness(0.9);
+}
